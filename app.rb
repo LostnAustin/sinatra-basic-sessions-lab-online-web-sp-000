@@ -10,5 +10,9 @@ class App < Sinatra::Base
     erb :index
   end
 
+  post '/chekcout' do
+    @item = params[:item]
+    erb :index
+  end
 
 end

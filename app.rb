@@ -12,6 +12,7 @@ class App < Sinatra::Base
 
   post '/checkout' do
     @item = params[:item]
+    binding.prys
     erb :index
   end
 

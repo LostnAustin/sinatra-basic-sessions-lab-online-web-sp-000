@@ -17,7 +17,7 @@ class App < Sinatra::Base
     # @session << session[:item][]
 
 
-    #  binding.pry
+     binding.pry
     erb :index
   end
 
